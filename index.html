@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" type="text/css" href="styles.css">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 
+ <script type="text/javascript" src="script.js" defer></script>
+
+<title>Calculator 4</title>
+
+
+
+</head>
+
+<body>
+ <section class="calculator4">
+	<h1> Calculator 4 </h1>
+  <form>
+   <input type="text" name="" id="screen" class="screen4" value="0">
+  </form>
+  <div class="buttons4"> 
+   <!-- operation buttons -->
+   <button id="multiply" type="button" class="btn4"  value="*" onclick="makeString(this.value)">*</button>
+   <button id="divide" type="button" class="btn4"  value="/" onclick="makeString(this.value)">/</button>
+   <button id="minus" type="button" class="btn4" value="-" onclick="makeString(this.value)">-</button>
+   <button id="plus" type="button" class="btn4"  value="+" onclick="makeString(this.value)">+</button>
+   <!-- number buttons -->
+   <button id="decimal" type="button" class="btn4 btn-grey" value="." onclick="makeString(this.value)">.</button>
+   <button id="nine" type="button" class="btn4 btn-grey" value="9" onclick="makeString(this.value)">9</button>
+   <button id="eight" type="button" class="btn4 btn-grey" value="8" onclick="makeString(this.value)">8</button>
+   <button id="seven" type="button" class="btn4 btn-grey" value="7" onclick="makeString(this.value)">7</button>
+   <button id="six" type="button" class="btn4 btn-grey" value="6" onclick="makeString(this.value)">6</button>
+   <button id="five" type="button" class="btn4 btn-grey" value="5" onclick="makeString(this.value)">5</button>
+   <button id="four" type="button" class="btn4 btn-grey" value="4" onclick="makeString(this.value)">4</button>
+   <button id="three" type="button" class="btn4 btn-grey" value="3" onclick="makeString(this.value)">3</button>
+   <button id="two" type="button" class="btn4 btn-grey" value="2" onclick="makeString(this.value)">2</button>
+   <button id="one" type="button" class="btn4 btn-grey" value="1" onclick="makeString(this.value)">1</button>
+   <button id="zero" type="button" class="btn4 btn-grey" value="0" onclick="makeString(this.value)">0</button>
+   <button id="equals" type="button" class="btn4  btn-grey" onclick="evalu()">=</button>
+   <button id="clear" type="button" class="btn4  btn-grey" onclick="clearScreen()">C</button>
+   <button id="memory-save" type="button" class="btn4  btn-grey" onclick="MS()">MS</button>
+   <button id="memory-recall" type="button" class="btn4  btn-grey" onclick="MR()">MR</button>
+   <ul class="memory-list"></ul>
+   <button id="memory-clear" type="button" class="btn4  btn-grey" onclick="MC()">MC</button>
+
+
+  </div>
+
+
+
+ </section>
+
+ 
+</body>
+
+</html>
